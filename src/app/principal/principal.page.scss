@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+ion-toolbar {
+    --background: #104B51;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+    // border-radius: 0 0 20% 20%;
+    ion-item {
+        --background: #104B51;
+        color: white;
+
+        h1 {
+            font-weight: 700;
+        }
+
+        span {
+            color: gold;
+        }
+    }
+}
+
+.hider {
+    position: relative;
+}
+
+.hider .tulbar::before {
+    content: "";
+    display: block;
+    background: white;
+    position: absolute;
+    bottom: -5px;
+    left: 26px;
+    width: 94%;
+    height: 30px;
+    border-radius: 12px
+}
+
+.hider .tulbar::after {
+    content: "";
+    display: block;
+    background: white;
+    position: absolute;
+    bottom: -5px;
+    right: 26px;
+    width: 94%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.info {
+    margin-top: 1.8rem;
+    height: 130px;
+    box-shadow: none;
+    box-shadow: 0px 3px 45px 0px rgba(0, 0, 0, 0.16);
+    border-radius: 20px;
+    overflow: visible;
+    --background: #FBCC04;
+
+    ion-img {
+        width: 120px;
+        margin: -50px auto auto auto;
+    }
+
+    ion-card-subtitle {
+        font-weight: 100;
+        color: black;
+    }
+
+    ion-card-title {
+        font-weight: 700;
+    }
+
+    p {
+        color: black;
+    }
+}
+
+.collection {
+    column-count: 2;
+}
+
+.collection-item {
+    display: inline-block;
+    padding: 0px 12px 12px 12px;
+    border-radius: 12px;
+
+    img {
+        border-radius: 12px;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+        margin: 0;
+    }
+
+    h4 {
+        font-size: .8rem;
+        margin: 0;
+    }
+}

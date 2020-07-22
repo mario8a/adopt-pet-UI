@@ -1,0 +1,81 @@
+<ion-header class="ion-no-border hider">
+  <ion-toolbar class="tulbar">
+    <ion-item lines="none">
+      <ion-avatar slot="end">
+        <img src="assets/profile.jpg">
+      </ion-avatar>
+      <ion-button routerLink='/' fill="clear" color="light">
+        <ion-icon name="grid-outline"></ion-icon>
+      </ion-button>
+    </ion-item>
+    <ion-item lines="none">
+      <div class="ion-padding-start ion-padding-bottom">
+        <ion-label>
+          <h2>Hello</h2>
+          <h1>Mario Ochoa</h1>
+          <span><ion-icon name="location-outline"></ion-icon>Mexico City</span>
+        </ion-label>
+      </div>
+    </ion-item>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="ion-padding">
+
+    <div class="content-info-adopt">
+      <ion-card class="ion-margin-bottom" class="info">
+
+        <ion-row>
+          <ion-col size="8" class="ion-padding-start">
+            <ion-card-content>
+              <ion-card-subtitle>
+                Meet & Greet
+              </ion-card-subtitle>
+              <ion-card-title>
+                Adoptable pets
+              </ion-card-title>
+              <p>Located in over 1,600 stores, convenient place to meet pets</p>
+            </ion-card-content>
+          </ion-col>
+          <ion-col size="4">
+            <ion-img src="../../assets/perro1.png"></ion-img>
+          </ion-col>
+        </ion-row>
+        
+      </ion-card>
+    </div>
+    
+
+    <h3>Featured Pets</h3>
+
+    <div class="collection">
+      <div class="collection-item" text-center>
+        <img src="../../assets/dog.jpg" alt="">
+        <h3>Tamarindo</h3>
+        <h4>Male, Young</h4>
+      </div>
+      <div class="collection-item" text-center>
+        <img src="../../assets/dog2.jpg" alt="">
+        <h3>Fresa</h3>
+        <h4>Female, Young</h4>
+      </div>
+      <div class="collection-item" text-center>
+        <img src="../../assets/dog3.jpg" alt="">
+        <h3>Scrappy Doo</h3>
+        <h4>Male, Adult</h4>
+      </div>
+      <div class="collection-item" text-center>
+        <img src="../../assets/dog4.jpg" alt="">
+        <h3>Scout</h3>
+        <h4>Male, Adult</h4>
+      </div>
+      <div class="collection-item" text-center>
+        <img src="../../assets/dog.jpg" alt="">
+        <h3>Kap</h3>
+        <h4>Female, Young</h4>
+      </div>
+    </div>
+
+  </div>
+</ion-content>

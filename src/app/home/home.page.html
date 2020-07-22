@@ -1,20 +1,20 @@
-<ion-header [translucent]="true">
+<ion-header class="ion-no-border">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div class="ion-padding">
+    <ion-card class="ion-no-border" id="img-content">
+      <ion-img src="../../assets/undraw_Cautious_dog_q83f.svg"></ion-img>
+      <ion-card-content class="ion-text-center">
+        <ion-card-title>Adopt Pet</ion-card-title>
+        <ion-card-subtitle>Make a new friend and prepare your home for your buddy</ion-card-subtitle>
+      </ion-card-content>
+    </ion-card>
+    <div class="ion-text-center">
+      <ion-button routerLink="/principal">Get Started</ion-button>
+    </div>
   </div>
 </ion-content>
